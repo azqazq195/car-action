@@ -64,7 +64,7 @@ class _OnBoardScreenState extends State<OnBoardScreen>
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 20),
               child: ProgressBar(
                 progressController: _progressController,
                 length: onBoardData.length,
