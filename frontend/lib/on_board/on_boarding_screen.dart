@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:frontend/on_board/components/animated_text.dart';
-import 'package:frontend/on_board/components/custom_button.dart';
+import 'package:frontend/on_board/components/kakao_login_button.dart';
 import 'package:frontend/on_board/components/progress_bar.dart';
 import 'package:frontend/on_board/on_board.dart';
 import 'package:lottie/lottie.dart';
@@ -102,12 +102,9 @@ class _OnBoardScreenState extends State<OnBoardScreen>
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(30, 88, 30, 60),
-              child: CustomButton(
-                onPressed: () {},
-                text: '카카오로 계속하기',
-              ),
+            const Padding(
+              padding: EdgeInsets.fromLTRB(30, 88, 30, 60),
+              child: KakaoLoginButton(),
             ),
           ],
         ),
