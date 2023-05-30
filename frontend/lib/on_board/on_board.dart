@@ -15,7 +15,7 @@ final List<OnBoard> demo_data = [
     title: "삼쩜삼으로 쩜 쉽게.\n세금관리해요",
   ),
   OnBoard(
-      imagePath: "assets/lottie/car-city.json",
+      imagePath: "assets/lottie/phone2.json",
       title: "종합소득세 환급신고\n2분이면 조회 완료!",
       description: "나도 몰랐던 숨은 환급액 찾아요."),
   OnBoard(
